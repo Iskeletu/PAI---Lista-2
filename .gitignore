@@ -8,6 +8,7 @@ src/**
 !global_thresholding.py
 !k_means.py
 !script.py
+!shapes.py
 
 # Input image directory ans its contents.
 !img/
