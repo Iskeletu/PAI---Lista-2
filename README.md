@@ -12,6 +12,8 @@ PAI---Lista-2/
 │ ├── kmeans/                   # Máscaras obtidas por K-means
 │ ├── otsu/                     # Máscaras obtidas por Otsu
 │ ├── overlay/                  # Imagens originais com sobreposição das máscaras
+│ ├── shapes/
+│ │ ├── convex_hull/            # Resultados de representação de formas
 │ └── metrics.csv               # Tabela de métricas (tempo e proporção de foreground)
 ├── src/                        # Código-fonte
 │ ├── global_thresholding.py    # Implementação do algorítmo Otsu.
@@ -39,14 +41,17 @@ PAI---Lista-2/
 ## 🚀 Execução
 1. **Coloque as imagens de teste na pasta img/.**
 2. **Execute o script principal:**
-
 ```bash
-python src/main.py
+python src/script.py      # Para execução referente a questão 1
+````
+```bash
+python src/run_hull.py    # Para execução referente a questão 2
 ````
 3. **Os resultados serão gerados automaticamente em `./output/`, incluindo:**
 - Máscaras segmentadas (`./output/otsu/`, `./output/kmeans/`)
 - Imagens com sobreposição de máscara (`./output/overlay/`)
 - Métricas numéricas (`./output/metrics.csv`)
+- Overlays do fecho convexo: (`./out/shapes/convex_hull/`)
 ---
 
 ## 📊 Resultados
