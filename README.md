@@ -5,10 +5,10 @@ O objetivo é **comparar dois algoritmos de segmentação**: **Limiarização Gl
 ---
 
 ## 🧩 Estrutura do Projeto
-```python
+```bash
 PAI---Lista-2/
 ├── img/                        # Imagens de entrada
-├── output/                        # Diretório de saída de resultados
+├── output/                     # Diretório de saída de resultados
 │ ├── kmeans/                   # Máscaras obtidas por K-means
 │ ├── otsu/                     # Máscaras obtidas por Otsu
 │ ├── overlay/                  # Imagens originais com sobreposição das máscaras
