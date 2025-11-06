@@ -1,0 +1,27 @@
+## Ignore everything!
+/*
+
+## Except what I want to keep:
+# Python source files.
+!src/
+src/**
+!global_thresholding.py
+!k_means.py
+!script.py
+
+# Input image directory ans its contents.
+!img/
+!img/**
+
+# Output directory and its contents.
+!output/
+!output/**
+
+# Configuration files (any location).
+!**/*.ini
+
+# Project metadata.
+!.gitignore
+!LICENSE
+!README.md
+!requirements.txt

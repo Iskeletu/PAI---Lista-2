@@ -1,0 +1,7 @@
+name,method,fg_ratio,time_ms,notes
+example_image_1,otsu,0.4611,356.7,
+example_image_1,kmeans,0.4509,52714.6,"use_color=False, spatial=0.2"
+example_image_2,otsu,0.0442,50.3,
+example_image_2,kmeans,0.4222,2202.8,"use_color=False, spatial=0.2"
+example_image_3,otsu,0.2759,10.5,
+example_image_3,kmeans,0.2439,1643.0,"use_color=False, spatial=0.2"
